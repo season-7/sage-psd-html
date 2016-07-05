@@ -1,10 +1,22 @@
-/*first breakpoint*/
+/*
+  ========================================
+  first breakpoint
+  ========================================
+*/
 @media (min-width: 600px) {
 
 }
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+.logo img{
+  width: 45px;
+}
 .nav {
   text-align: center;
-  margin-top: -80px;
+  margin-top: -60px;
 }
 .nav a {
   text-decoration: none;
@@ -18,11 +30,18 @@
   display: inline-block;
   padding-left: 4px;
   padding-right: 4px;
+  font-size: 10px;
 
 }
 .social-media {
   float: right;
   margin-top: -40px;
+  font-size: 13px;
+
+}
+.social-media i{
+  padding-left: 3px;
+  padding-right: 3px;
 }
 body{
   background: #352D2F;
