@@ -157,9 +157,10 @@ body{
 
 .blank {
     background: 4b3939;
-    height: 350px;
+    height: 250px;
 
 }
+
 .discover {
     background: #fff;
     height: 145px;
@@ -190,6 +191,7 @@ body{
 
 .discover p {
     margin: 0px;
+    
 }
 .col-left{
   background-color: #fff;
@@ -203,15 +205,24 @@ body{
 }
 .col-left span {
   padding-left: 200px;
-  font-size: 72px;
+  font-size: 70px;
 }
 
 .col-right{
-  text-align: left;background-color: red;
-  float:left;width:50%;height:400px;
-  padding-top: 450px;color:#fff;}
+  text-align: left;
+  background-color: red;
+  float:left;
+  width:50%;
+  height:400px;
+  padding-top: 450px;
+  color:#fff;
+}
 
 .col-right h2{
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Play';
   font-size: 46px;
+}
+.col-rigth p {
+  font-family: 'raleway';
+  font-size: 28px;
 }
