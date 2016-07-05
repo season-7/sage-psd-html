@@ -11,6 +11,7 @@
   Navigation
   ========================================
 */
+
 .logo img{
   width: 45px;
 }
@@ -49,4 +50,31 @@ body{
 .social-media {
   color:white;
 
+}
+#transform{
+  text-transform: uppercase;
+}
+.col-sm-12 {
+  padding-top: 40px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Play', sans-serif;
+}
+#explore {
+  text-transform: uppercase;
+  font-size:20px;
+  width: 230px;
+  height: 20px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  margin-top:5px;
+  margin-left:-100px;
+  background: white;
+  color:black;
+  border-color: white;
 }
