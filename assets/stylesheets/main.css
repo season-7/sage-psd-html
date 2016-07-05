@@ -60,6 +60,7 @@ body{
   color: white;
   font-size: 50px;
   font-family: 'Play', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 #explore {
   text-transform: uppercase;
@@ -79,41 +80,6 @@ body{
   border-color: white;
 }
 
-#capital {
-  text-transform: uppercase;
-  font-size: 30px
-}
-#lower {
-  padding-top: 120px;
-  font-size: 10px;
-  padding-left: -100px;
-
-}
-#lower p{
-
-  font-size: 10px;
-}
-#two{
-  display: inline-block;
-  margin-top: 180px;
-  background: white;
-  color: black;
-}
-#color-only {
-  background: grey;
-}
-
-#colored {
-  background: red;
-  padding-left: 45px;
-  margin-right; 2px;
-}
-
-.col-sm-4{
-  background: grey;
-  width: 30%;
-  display: inline-block;
-}
 .dots {
     width: 100%;
 }
@@ -132,6 +98,7 @@ body{
 
 .hidden {
     visibility: hidden;
+
 }
 .blurred{
   visibility: hidden;
@@ -149,4 +116,102 @@ body{
     display: inline-block;
     width: 35px;
     border-bottom: 5px solid #fff;
+}
+
+
+.col-sm-6 {
+  background: white;
+
+}
+.column-left {
+  float: left;
+  width: 33%;
+}
+.column-right {
+  float: right;
+  width: 33%;
+}
+.column-center {
+  display: inline-block;
+  width: 33%;
+}
+.column{
+  display: inline-block;
+}
+#discover {
+  text-transform: uppercase;
+  font-size:20px;
+  width: 230px;
+  height: 20px;
+  padding: 10px;
+  border: 5px solid red;
+  margin-top: 400px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  margin-left:-400px;
+  background: red;
+  color:white;
+
+}
+
+.blank {
+    background: 4b3939;
+    height: 350px;
+
+}
+.discover {
+    background: #fff;
+    height: 145px;
+
+
+}
+
+.btn {
+    background: red;
+    border-radius: 4px;
+    color: #4b3939;
+    color:white;
+    cursor: pointer;
+    display: inline-block;
+    margin-top:20px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid ;
+    padding: 10px 20px;
+}
+.btn-alt {
+    position: absolute;
+    left: 200px;
+}
+
+.discover p {
+    margin: 0px;
+}
+.col-left{
+  background-color: #fff;
+  float:left;
+  width:50%;
+  height:400px;
+}
+.col-left p {
+  padding-left: 200px;
+  padding-top: 100px;
+}
+.col-left span {
+  padding-left: 200px;
+  font-size: 72px;
+}
+
+.col-right{
+  text-align: left;background-color: red;
+  float:left;width:50%;height:400px;
+  padding-top: 450px;color:#fff;}
+
+.col-right h2{
+  font-family: 'Roboto Slab', serif;
+  font-size: 46px;
 }
