@@ -78,3 +78,75 @@ body{
   color:black;
   border-color: white;
 }
+
+#capital {
+  text-transform: uppercase;
+  font-size: 30px
+}
+#lower {
+  padding-top: 120px;
+  font-size: 10px;
+  padding-left: -100px;
+
+}
+#lower p{
+
+  font-size: 10px;
+}
+#two{
+  display: inline-block;
+  margin-top: 180px;
+  background: white;
+  color: black;
+}
+#color-only {
+  background: grey;
+}
+
+#colored {
+  background: red;
+  padding-left: 45px;
+  margin-right; 2px;
+}
+
+.col-sm-4{
+  background: grey;
+  width: 30%;
+  display: inline-block;
+}
+.dots {
+    width: 100%;
+}
+.dots:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sec {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.hidden {
+    visibility: hidden;
+}
+.blurred{
+  visibility: hidden;
+}
+
+.full {
+    display: inline-block;
+    width: 35px;
+    border-bottom: 5px solid white;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+.hr:first-child {
+    display: inline-block;
+    width: 35px;
+    border-bottom: 5px solid #fff;
+}
