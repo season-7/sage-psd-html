@@ -1,0 +1,33 @@
+/*first breakpoint*/
+@media (min-width: 600px) {
+
+}
+.nav {
+  text-align: center;
+  margin-top: -80px;
+}
+.nav a {
+  text-decoration: none;
+    color: white;
+}
+.nav a:hover {
+  border-bottom: 3px solid white;
+}
+.nav li {
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 4px;
+
+}
+.social-media {
+  float: right;
+  margin-top: -40px;
+}
+body{
+  background: #352D2F;
+}
+.social-media {
+  color:white;
+
+}
