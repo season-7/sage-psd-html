@@ -191,7 +191,7 @@ body{
 
 .discover p {
     margin: 0px;
-    
+
 }
 .col-left{
   background-color: #fff;
@@ -225,4 +225,37 @@ body{
 .col-rigth p {
   font-family: 'raleway';
   font-size: 28px;
+}
+.side {
+    background: #fff;
+    float: left;
+    width: 50%;
+    height: 800px;
+    font-family: 'raleway';
+}
+
+.side h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 46px;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.side p {
+    padding-left: 150px;
+    font-family: 'raleway';
+    color:grey;
+}
+.aside {
+    background: #fff;
+    float: right;
+    width: 50%;
+    height: 800px;
+}
+
+.aside img {
+    padding-top: 140px;
+    padding-left: 100px;
+    text-align: center;
+
 }
